@@ -1,0 +1,107 @@
+
+body{
+    background:#eaeff5;
+    font-family: Lato;
+}
+
+.car{opacity: 0;}
+
+.well{
+
+    border-radius: 8px;
+    padding:16px;
+    box-shadow: 3px 4px 5px;
+}
+.bgc{ background: #ffffff; }
+.draw{
+    float: none;
+    clear: both;
+    width: 100%;
+
+}
+
+.draw ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.draw li{
+    float: none;
+    width: 100%;
+}
+
+
+
+
+.draw li a{
+    display: block;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+    text-decoration: none;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.draw li a:hover{opacity: 99;
+    color : #ffffff}
+
+.draw li a:after {
+    content: "";
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 0px;
+    position: absolute;
+    transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
+    z-index: -1;
+}
+
+.draw li:first-child {background :#202040; }
+.draw li a:hover{
+    cursor: pointer;
+
+}
+
+.draw li a:hover:after{ width: 100%; }
+.draw li:first-child a:after{ background: #363636;  opacity: 0.1;  }
+.draw li:nth-child(2) a:after{ background: #363636; opacity: 0.1; }
+.draw li:nth-child(3) a:after{ background: #363636; opacity: 0.1;}
+.draw li:last-child a:after{ background: #363636; opacity: 0.1;}
+
+.navgation_bar {
+    padding: 11px 11px;
+}
+
+.bott {
+    margin-top: 21px;
+    margin-bottom: 0rem;
+    padding: 10px;
+}
+
+.botts {
+    float: right;
+    margin-bottom: 0rem;
+}
+.cars{background :red}
+
+
+.c1{opacity:0;
+    padding: 10%;
+}
+.c2{opacity:0;
+    padding: 6%;
+}
+.c3{opacity:0;
+    padding: 4%;
+}
+.c4{opacity:0;
+    padding: 1%;
+}
+
+center{
+    font-size: 18px;
+}
