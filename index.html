@@ -1,0 +1,231 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Color</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<style>
+ body{background-color: #fdfdfd;}
+ .place:hover span {
+    opacity: 1;
+}
+.navgation_bar{padding: 11px 11px;
+		margin-left: 22%;
+		}
+.place {
+    position: relative;
+    width: 100%;
+    animation-name: place;
+    transform-origin: top;
+}
+
+
+ .place span {
+    width:100%;
+    bottom: 0;
+    color: #fff;
+    opacity: 0;
+	text-align: center;
+    text-transform: uppercase;
+    background-color: rgba(0,0,0,.1);
+    /*padding: 5px 20px 6px 32px;*/
+    border-radius: 0 3px 0 0;
+    cursor: pointer;
+    letter-spacing: 1px;
+	position: absolute;
+	}
+	
+
+.c1 {padding-bottom: 11.5%;
+	margin-bottom:10px;}
+.c2 {padding-bottom: 15.5%;}
+.c3 {padding-bottom: 17.5%;}
+.c4 {padding-bottom: 21%;
+	border-radius: 5px 5px 0 0;}
+
+.item {width:100%;
+        padding: 15px;
+		background-color: #fff;
+		margin-bottom:10px;
+	box-shadow: 0 10px 40px -10px rgba(0,64,128,.2);
+	transition: box-shadow .3s;
+		    border-radius: 8px;
+}
+
+.links{float: right;}
+
+.bott {margin: 19px 0 0px;}
+
+.navbar-brand {
+padding: 8px 15px;}
+
+@media only screen and (max-width: 769px) {
+  .navgation_bar {
+margin-left: 0;
+}
+    
+}
+.titless{opacity:0;}
+
+
+.palette{
+	cursor: pointer;
+}
+
+ </style>
+
+</head>
+<body>
+
+        <!--navbar start here-->
+
+<div>
+    <nav class="navbar navbar-inverse navbar-fixed-top" >
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand mt-3 brand" href="#"><img src="logo.png" width="50px" height="45px" ></a>
+			</div>
+
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<div class="form-group row" style="margin-bottom: 0px">
+					<div class="col-md-7 col-sm-6 col-lg-8">
+					<div class="navgation_bar">
+											<form action="" method="GET"  >
+						  <div class="input-group">
+							<input type="text" class="form-control" id="ex3"  name="search" placeholder="search...">
+							<div class="input-group-btn">
+							  <button class="btn btn-default" >
+								<i class="glyphicon glyphicon-search"></i>
+							  </button>
+							</div>
+						  </div>
+						</form>
+					</div>
+					</div>
+					
+					
+					
+	
+					<!--        <div class="col-md-2">-->
+					<div class="container-fluid">
+						<ul class="nav navbar-nav links" style="float:none;">
+							<li><a href="#">Icons</a></li>
+							<li><a href="#">Colors</a></li>
+						</ul>
+					</div>
+					<!--        </div>-->
+				</div>
+
+			</div>
+		</div>
+	</nav>
+</div>
+
+        <!--end navbar-->
+body_bellow
+    <!--section start here-->
+
+<br>
+<br>
+<br>
+<br>
+<div class="container-fluid">
+	<div class="col-md-12 col-sm-12 col-lg-12">
+				<div class="col-sm-12 col-md-4 col-lg-3 ">
+			<div class="item block shadow focus" >  
+				<div class="palette">
+					<div onclick="copyToClipboard('#ED9721')" class="place c4" style="background :#ED9721; "><a></a><span id="ED9721">#ED9721</span></div>
+					<div onclick="copyToClipboard('#D01F31')" class="place c3" style="background :#D01F31;"><a></a><span id="D01F31">#D01F31</span></div>
+					<div onclick="copyToClipboard('#BF8E2C')" class="place c2" style="background :#BF8E2C;"><a></a><span id="BF8E2C">#BF8E2C</span></div>
+					<div onclick="copyToClipboard('#611626')" class="place c1" style="background :#611626;"><a></a><span id="611626">#611626</span></div>
+					<p class="bott">
+						<span><span class="titless" style="opacity:0;">Blue shades</span><a class="links" href="https://cdn.britannica.com/45/5645-050-B9EC0205/head-treasure-flower-disk-flowers-inflorescence-ray." class="botts" target="_blank">inspiration</a>
+						</span>
+					</p>
+				</div>
+			</div>	
+		</div>
+				<div class="col-sm-12 col-md-4 col-lg-3 ">
+			<div class="item block shadow focus" >  
+				<div class="palette">
+					<div onclick="copyToClipboard('#222831')" class="place c4" style="background :#222831; "><a></a><span id="222831">#222831</span></div>
+					<div onclick="copyToClipboard('#30475e')" class="place c3" style="background :#30475e;"><a></a><span id="30475e">#30475e</span></div>
+					<div onclick="copyToClipboard('#f2a365')" class="place c2" style="background :#f2a365;"><a></a><span id="f2a365">#f2a365</span></div>
+					<div onclick="copyToClipboard('#611626')" class="place c1" style="background :#611626;"><a></a><span id="611626">#611626</span></div>
+					<p class="bott">
+						<span><span class="titless" style="opacity:0;">Blue shades</span><a class="links" href="https://cdn.britannica.com/45/5645-050-B9EC0205/head-treasure-flower-disk-flowers-inflorescence-ray." class="botts" target="_blank">inspiration</a>
+						</span>
+					</p>
+				</div>
+			</div>	
+		</div>
+				<div class="col-sm-12 col-md-4 col-lg-3 ">
+			<div class="item block shadow focus" >  
+				<div class="palette">
+					<div onclick="copyToClipboard('#FBE610')" class="place c4" style="background :#FBE610; "><a></a><span id="FBE610">#FBE610</span></div>
+					<div onclick="copyToClipboard('#F6881E')" class="place c3" style="background :#F6881E;"><a></a><span id="F6881E">#F6881E</span></div>
+					<div onclick="copyToClipboard('#6F4119')" class="place c2" style="background :#6F4119;"><a></a><span id="6F4119">#6F4119</span></div>
+					<div onclick="copyToClipboard('#96793E')" class="place c1" style="background :#96793E;"><a></a><span id="96793E">#96793E</span></div>
+					<p class="bott">
+						<span><span class="titless" style="opacity:0;">Blue shades</span><a class="links" href="https://cdn.britannica.com/45/5645-050-B9EC0205/head-treasure-flower-disk-flowers-inflorescence-ray." class="botts" target="_blank">inspiration</a>
+						</span>
+					</p>
+				</div>
+			</div>	
+		</div>
+				<div class="col-sm-12 col-md-4 col-lg-3 ">
+			<div class="item block shadow focus" >  
+				<div class="palette">
+					<div onclick="copyToClipboard('#754FA0')" class="place c4" style="background :#754FA0; "><a></a><span id="754FA0">#754FA0</span></div>
+					<div onclick="copyToClipboard('#824098')" class="place c3" style="background :#824098;"><a></a><span id="824098">#824098</span></div>
+					<div onclick="copyToClipboard('#5F220B')" class="place c2" style="background :#5F220B;"><a></a><span id="5F220B">#5F220B</span></div>
+					<div onclick="copyToClipboard('#63864C')" class="place c1" style="background :#63864C;"><a></a><span id="63864C">#63864C</span></div>
+					<p class="bott">
+						<span><span class="titless" style="opacity:0;">Blue shades</span><a class="links" href="https://cdn.britannica.com/45/5645-050-B9EC0205/head-treasure-flower-disk-flowers-inflorescence-ray." class="botts" target="_blank">inspiration</a>
+						</span>
+					</p>
+				</div>
+			</div>	
+		</div>
+				<div class="col-sm-12 col-md-4 col-lg-3 ">
+			<div class="item block shadow focus" >  
+				<div class="palette">
+					<div onclick="copyToClipboard('#EC9EC4')" class="place c4" style="background :#EC9EC4; "><a></a><span id="EC9EC4">#EC9EC4</span></div>
+					<div onclick="copyToClipboard('#E85380')" class="place c3" style="background :#E85380;"><a></a><span id="E85380">#E85380</span></div>
+					<div onclick="copyToClipboard('#667F4F')" class="place c2" style="background :#667F4F;"><a></a><span id="667F4F">#667F4F</span></div>
+					<div onclick="copyToClipboard('#EE3978')" class="place c1" style="background :#EE3978;"><a></a><span id="EE3978">#EE3978</span></div>
+					<p class="bott">
+						<span><span class="titless" style="opacity:0;">Blue shades</span><a class="links" href="https://cdn.britannica.com/45/5645-050-B9EC0205/head-treasure-flower-disk-flowers-inflorescence-ray." class="botts" target="_blank">inspiration</a>
+						</span>
+					</p>
+				</div>
+			</div>	
+		</div>
+			</div>
+</div>
+
+
+
+<script>
+function copyToClipboard(element) {
+  var $temp = $("<input>");
+  $("body").append($temp);
+  $temp.val($(element).text()).select();
+  document.execCommand("copy");
+  $temp.remove();
+}
+
+</script>
+
+
+</body>
+</html>
